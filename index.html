@@ -134,14 +134,14 @@ body{background:#e9e1d6;background-image:radial-gradient(#b99a6810 .7px,transpar
 .outline-btn{border-color:#b99a68;transition:.2s}
 .outline-btn:hover{background:#f2e9dc}
 .footer{background:linear-gradient(180deg,#f2eadd,#e9dece);padding:65px 20px}
-.footer-monogram{width:48px;height:48px;margin:0 auto 18px;border:1px solid #b99a68;border-radius:50%;display:grid;place-items:center;color:#9a784d;font:20px 'Cormorant Garamond'}
+.footer-monogram{width:58px;height:58px;margin:0 auto 18px;border:1px solid #c5a56b;border-radius:50%;display:grid;place-items:center;color:#e5d1a8;font:18px 'Cormorant Garamond',serif;letter-spacing:-.5px}
 .modal-card{border-color:#d7c19b;box-shadow:0 25px 80px #160e0980}
 .form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:2px solid #b99a6855;border-color:#b99a68}
 @media(max-width:600px){
  .site-nav{padding:9px 12px;gap:8px}.nav-brand{font-size:23px}.nav-links{gap:11px}.nav-links a{font-size:10px}.nav-links a:nth-child(1){display:none}.section{padding:67px 19px}.gallery-grid{gap:8px}.gallery-grid img{height:125px}
  .memory img{height:215px}.cover-photo{height:275px}.event-card{padding:30px 14px}.music{bottom:19px;left:13px}
 }
-@media(max-width:380px){.nav-links{gap:8px}.nav-links a{font-size:9px}.nav-rsvp{padding:6px 7px}}
+
 
 /* Midnight Luxury — navy, champagne and warm ivory */
 :root{
@@ -238,7 +238,7 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
 .event-row:last-of-type{border-bottom:0}
 .actions .solid-btn,.actions .outline-btn{min-height:46px}
 .section{scroll-margin-top:65px}
-#rsvp{scroll-margin-top:65px}
+
 @media(max-width:600px){
  .cover{padding:30px 20px}.cover-inner{padding:18px 0}
  .cover-photo{height:260px;width:min(66vw,245px)}
@@ -253,7 +253,7 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
 #invitation .nav-brand{color:#e7d3a5}
 #invitation .nav-links a{color:#e9e2d5}
 #invitation .nav-links a:hover{color:#d9bb7d}
-#invitation .nav-rsvp{background:#c5a56b;color:#142139;border-color:#ead7ae}
+
 #invitation .section{background:#f8f6f0!important;color:#17243a}
 #invitation .section:nth-of-type(even){background:#e9edf1!important}
 #invitation .section h2{color:#1b2d49}
@@ -300,8 +300,8 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
 #invitation .form-field input:focus,#invitation .form-field select:focus,#invitation .form-field textarea:focus{outline:2px solid #c5a56b66;border-color:#b18d50}
 #invitation .form-note{color:#718096!important}
 #invitation .modal-close{color:#1b2d49;border-color:#cfc4b1}
-#invitation .floating-rsvp{background:#c5a56b;color:#17243a;border-color:#f0dcae;font-weight:700}
-#invitation .floating-rsvp span{color:#17243a}
+
+
 @media(max-width:600px){
  .cover-photo{width:min(82vw,310px);max-height:340px;object-fit:contain}
  #invitation .site-nav{background:#111d31f7}
@@ -319,7 +319,7 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
   <div class="kicker">A CELEBRATION OF LOVE</div>
   <div class="cover-top">TOGETHER WITH OUR FAMILIES</div>
   <div class="script cover-title">Hady <span class="amp">&</span> Shahd</div>
-  <div class="envelope-seal" aria-label="H and Sh monogram">H&amp;Sh</div>
+  <div class="envelope-seal" aria-label="H and Sh">H&amp;Sh</div>
   <img class="cover-photo" src="assets/proposal-scene.jpg" alt="A sweet engagement proposal scene">
   <div class="kicker">A LITTLE INVITATION, SEALED WITH LOVE</div>
   <p class="cover-copy">بكل الحب والفرحة، ندعوكم لمشاركتنا بداية حكاية جديدة<br>وجودكم يكمل فرحتنا</p>
@@ -330,7 +330,7 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
 <div id="invitation" class="hidden">
 <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
 <nav class="site-nav" aria-label="التنقل داخل الدعوة">
- <a class="nav-brand script" href="#home">H ♡ S</a>
+ <a class="nav-brand script" href="#home">H&amp;Sh</a>
  <div class="nav-links">
   <a href="#verse">بدايتنا</a><a href="#story">حكايتنا</a><a href="#gallery">الصور</a><a href="#details">التفاصيل</a>
  </div>
@@ -394,7 +394,7 @@ body{background:#101a2a;color:var(--ink);background-image:radial-gradient(#d9c18
   </div>
  </div>
 </section>
-<footer class="footer"><div class="footer-monogram">H ♡ S</div><div class="section-kicker">TWO HEARTS, ONE JOURNEY</div><div class="script">With love, Hady & Shahd</div><div class="gold-divider"></div><p>وجودكم هو أجمل هدية لينا</p><div class="date-line">16 · 11 · 2026</div></footer>
+<footer class="footer"><div class="footer-monogram" aria-label="H and Sh">H&amp;Sh</div><div class="section-kicker">TWO HEARTS, ONE JOURNEY</div><div class="script">With love, Hady & Shahd</div><div class="gold-divider"></div><p>وجودكم هو أجمل هدية لينا</p><div class="date-line">16 · 11 · 2026</div></footer>
 </div><div class="modal hidden" id="lightbox" role="dialog" aria-modal="true" aria-label="معرض الصور">
  <div class="modal-card" style="text-align:center;background:transparent;border:0;box-shadow:none;padding:10px"><button class="modal-close" type="button" data-close-modal>×</button><img class="lightbox-img" id="lightboxImage" alt="صورة من ذكريات هادي وشهد"></div>
 </div>
